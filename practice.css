@@ -1,0 +1,263 @@
+a:link {color:black;} 
+a:visited {color:pink;}   /* visited link */
+a:hover {color:gold;}     /* mouse over link */
+a:active {color:red;border:2px solid silver;}
+*{
+	color:red;
+}
+ body{
+	
+	background: url(metalgearsolid.jpg);  
+	display:-webkit-box;
+	-webkit-box-pack:center;
+ }
+ 
+ li {
+	display:inline; 
+	color:red;
+	margin-left:5px;
+	margin-right:5px; 
+ }
+ button {
+	width:75px;
+ }
+
+ video{
+	border-radius:4px;
+	border:2px solid black;
+	margin:50px auto; 
+
+}
+table{
+	margin:10px auto;
+	
+}
+
+#account{
+	background-color:orange;
+	position:fixed;
+	top:200px;
+	left:20px;
+	border:2px solid blue;
+}
+#anotherLayer{
+	width:100%;
+	border:1px solid black;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+
+}
+.buttons:active{
+	border:2px solid black;
+}
+
+#navDiv2{
+	width:200px; 
+	margin:0px; 
+	position:fixed;
+
+}
+ #article{
+	border:1px solid black;
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	border-bottom:2px solid black;
+ }
+ #article:hover{
+	border:1px solid orange; 
+ }
+#deborah{
+	display:none; 
+}
+ 
+ #navList{
+	
+	text-align:center;
+	width:50%;
+	margin:0 auto;
+	padding:0px; 
+	list-style-type:none; 
+	border:2px solid yellow;
+	background:silver; 
+	border-radius:4px;
+ }
+
+ 
+ #navImg{
+	margin-left:0px;
+ }
+ #navDiv{
+
+	padding:0px;
+	
+	
+ }	
+ #clear{
+	clear:both;
+ }
+ #mainWrapper{
+	border-radius:4px;
+	border:2px solid black;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+ }
+ #scrollBox{
+	background-color:black; 
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	margin-top:10px;
+	border-radius:4px;
+	position:fixed;
+	top:570px;
+	left:1200px;
+ }
+ #mainContent{
+	border-radius:4px;
+	font-size:120%;
+	border:2px solid black;
+	color:black;
+	margin:10px;
+	padding:10px;
+	-webkit-box-flex:1;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+ }
+ #scrollDiv{
+	position:fixed;
+	width:50px;
+	height:50px;
+	display:box;
+	border:2px solid black;
+ }
+
+  #random1{
+	margin-top:10px;
+	border:2px solid black;
+	background-color:red;
+	color:green;
+	width:50px;
+	height:50px;
+	text-align:center;
+	vertical-align:middle ;
+ }
+ #vidArticle{
+	text-align:center;
+ 
+ }
+ #sideContent{
+	border-radius:4px;
+	color:black;
+	border:2px solid black;
+	margin:10px;
+	width:250px;
+	background-color:white;
+ }
+ #scrollBox{
+	display:none; 
+ }
+ #scrollBox:hover{
+	border:2px solid white;
+ }
+ #scrollBox:active{
+	border:2px solid orange;
+ }
+ #sideArticle{
+	border-bottom:2px solid black; 
+	
+ }
+ #up{ 
+	border:2px solid black;
+	background-color:orange;
+	width:50px;
+ }
+ #up:active{
+	background-color:red; 
+ }
+ #wrapper{
+	border-radius:4px;
+	max-width:1000px;
+	margin-left:200px;
+	display:-webkit-box;
+	/*tells browser how to orient boxes*/
+	-webkit-box-orient: vertical;
+	-webkit-box-flex:1; 
+	
+ }
+ #down{
+	border:2px solid black;
+	background-color:orange;
+	width:50px; 
+ }
+#down:active{
+	position:fixed;
+	background-color:red; 
+ }
+
+#prepender{
+	margin-left:100px ;
+	border:2px solid blue;
+	color:white;
+	background-color:orange;
+}
+#prepender:active{
+	background:white;
+	color:black;
+}
+#prepender:hover{
+	border:2px solid red; 
+}
+#title{
+	border-radius:4px;
+	background-color:white;
+	margin:0px;
+	border:2px solid black;
+	text-align:center;
+	display: none; 
+ }
+ 
+.highlight{
+	background-color:yellow;
+
+}
+ .navButton{
+	border: 2px solid black;
+	border-radius:4px;
+	transition: border 1s, color 1s; 
+	width:110px;
+	
+ }
+ .navButton:hover{
+	border:2px solid red;
+	color:red; 
+	
+ }
+ .navButton:active{
+	border:2px solid blue;
+	background-color:gold;
+ 
+ }
+ .navButton2{
+	border: 2px solid black;
+	border-radius:4px;
+	transition: border 1s, color 1s; 
+	
+	
+ }
+ .navButton2:hover{
+	border:2px solid red;
+	color:red; 
+	
+ }
+ .navButton2:active{
+	border:2px solid blue;
+	background-color:gold;
+ 
+ }
+ .google{
+	font-size:50px;
+ }
+ #table{
+	background-color:red;
+ }
